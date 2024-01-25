@@ -20,9 +20,34 @@ All notable changes to this project will be documented in this file.
 
 
 
+## v1.2.1-beta
+
+This is a pre-release. You can test it on the preview environment.
+
+### Added
+
+- Txn Notes: Added a toggle to switch the note encoding
+- Txn Logs: Added toggles to switch transaction logs encoding
+- Search: Added search from the labeled assets list
+
+### Changed
+
+- Search Scores: More weight for `Trusted` and `Verified` labels 
+- Search Scores: Drop the score for `Suspicious` labels
+
+### Fixed
+
+- Search: Fixed suggestions dropdown not being displayed on autofocus
+- Search: Fixed searching from the Popular Assets list
+- Search: Fixed the search scopes (tokens, nfts) for cached data  
+
+
+
+
+
 ## v1.2.0
 
-This version implements the new navigatin that includes the links to Allo Account and Allo Alerts. 
+This version implements the new navigation that includes the links to Allo Account and Allo Alerts. 
 
 ### Added
 
@@ -42,9 +67,6 @@ This version implements the new navigatin that includes the links to Allo Accoun
 - Cache: Fixed brrowser cache busting for popular assets
 - Theme: Fixed theme colors for asset charts
 - Transaction Groups: Fixed the _per page_ limits for transaction groups (and all other static txn rows)
-
-
-
 
 
 
