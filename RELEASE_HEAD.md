@@ -1,8 +1,7 @@
-A new version of [Allo.info](https://allo.info) has been released.
-
+A new version of **Allo.info** has been released.
 If you have any questions, feature requests, or found a bug, feel free to reach out!
+[GitHub](https://github.com/supeer-io/allo-releases/issues) | [Discord](https://discord.gg/VnxgAGepBm) | [X (Twitter)](https://twitter.com/alloinfo) | [Email](mailto:feedback@allo.info)
 
-- [GitHub](https://github.com/supeer-io/allo-releases/issues): Discuss issues publicly
-- [Discord](https://discord.gg/VnxgAGepBm): Open a support ticket 
-- [X (Twitter)](https://twitter.com/alloinfo): Send us a DM
-- [Email](mailto:feedback@allo.info): Good old emails
+Deployment environments
+[Production](https://allo.info) | [Pre-releases](https://preview.stg.allo.info) 
+
