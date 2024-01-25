@@ -8,6 +8,8 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
+### Optimized
+
 ### Deprecated
 
 ### Removed
@@ -15,6 +17,37 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 ### Security
+
+
+
+## v1.2.0
+
+This version implements the new navigatin that includes the links to Allo Account and Allo Alerts. 
+
+### Added
+
+- Allo Ecosystem: Users can switch to the different Allo apps (Accounts, Alerts) from the nav
+- Search: Added autofocus on the main search bar
+
+### Changed
+
+- Bookmarks: The bookmark page has been moved out of the _Profile_ and has its own page now.
+
+### Optimized
+
+- Cache: Optimized saving the preload entries in browser's IndexedDB
+
+### Fixes
+
+- Cache: Fixed brrowser cache busting for popular assets
+- Theme: Fixed theme colors for asset charts
+- Transaction Groups: Fixed the _per page_ limits for transaction groups (and all other static txn rows)
+
+
+
+
+
+
 
 
 ## v1.1.4
@@ -29,7 +62,9 @@ All notable changes to this project will be documented in this file.
 - Accounts: Fixed account types not updating after fetching data
 - URLs: Fixed an issue where removing multiple slashes (`/account//<AccountId>/txns`) was sometimes removing double slashes from protocol.
 - Nav Links: Fixed active state for strict Navlinks with trailing slashes
- 
+
+
+
 
 ## v1.1.3
 
@@ -40,6 +75,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 - Fixed block timestamps
+
 
 
 
