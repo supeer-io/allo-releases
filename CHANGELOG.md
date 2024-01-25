@@ -17,6 +17,18 @@ All notable changes to this project will be documented in this file.
 ### Security
 
 
+## v1.1.1
+
+### Added
+
+- Preload: individually set cache durations for each preloaded content type
+
+### Fixed
+
+- API: fixed `searchAssetMeta` route
+- Number format: remove rounding for most amounts 
+
+
 
 ## v1.1.0
 
