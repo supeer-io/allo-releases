@@ -6,15 +6,44 @@ All notable changes to this project will be documented in this file.
 
 ### Added
 
-nothing
-
 ### Changed
 
-nothing
+### Deprecated
+
+### Removed
 
 ### Fixed
 
-nothing
+### Security
+
+
+
+## v1.1.0
+
+### Added
+
+- New `TxnGroup` entity
+- New route for transaction groups (`allo.info/txn/group/<Group ID>`)
+- Search for GroupId in the main search bar
+- External links: added _Raw indexer data_ links
+
+### Changed
+
+- Group transactions rendered using the standard transaction tables components
+- _Group Summary_ transfers are now collapsible (collapsed by default)
+- Bookmarks sorted in alphabetical order
+
+
+### Removed
+
+- Removed "Sign Out" button from the profile until profiles implement AlloAccounts
+- Removed transaction type `Unknown` from the filters
+
+
+### Fixed
+
+- Fixed a typo in `Key Registration` transaction type
+- Trigger NFD search only on alphanumerical strings
 
 
 ## v1.0.0
