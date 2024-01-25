@@ -17,6 +17,17 @@ All notable changes to this project will be documented in this file.
 ### Security
 
 
+## v1.1.3
+
+### Added
+
+- Accounts: Added tooltip for the _Funded by_ info
+
+### Fixed
+
+- Fixed block timestamps
+
+
 ## v1.1.2
 
 ### Fixed
