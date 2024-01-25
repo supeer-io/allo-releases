@@ -17,6 +17,14 @@ All notable changes to this project will be documented in this file.
 ### Security
 
 
+## v1.1.2
+
+### Fixed
+
+- Date formats: better formating for uncommon languages
+- Accounts: fixed re-rendering of the Rekeyed To component after getting the API response 
+
+
 ## v1.1.1
 
 ### Added
