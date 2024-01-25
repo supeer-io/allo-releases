@@ -27,6 +27,7 @@ All notable changes to this project will be documented in this file.
 
 - API: fixed `searchAssetMeta` route
 - Number format: remove rounding for most amounts 
+- Fixed styling of values with dividers when they are rendered on multiple lines 
 
 
 
@@ -38,6 +39,7 @@ All notable changes to this project will be documented in this file.
 - New route for transaction groups (`allo.info/txn/group/<Group ID>`)
 - Search for GroupId in the main search bar
 - External links: added _Raw indexer data_ links
+- Dates and Amounts formats using the browser's locale 
 
 ### Changed
 
