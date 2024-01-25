@@ -17,6 +17,20 @@ All notable changes to this project will be documented in this file.
 ### Security
 
 
+## v1.1.4
+
+### Fixes
+
+- Date and Number formats: fixed default locale being undefined on the server side
+- Timestamps: Fixed datetime to timestamp conversion when they already include 'Z' (UTC marker)
+- Blocks: prevent 404 errors when an error occur while fetching extra block data from GraphQL API
+- Transaction Filters: Fixed an issue where address filters were overwriting the actual address the user is viewing the transactions for
+- Accounts: Fixed account thumbnails not loading on mount
+- Accounts: Fixed account types not updating after fetching data
+- URLs: Fixed an issue where removing multiple slashes (`/account//<AccountId>/txns`) was sometimes removing double slashes from protocol.
+- Nav Links: Fixed active state for strict Navlinks with trailing slashes
+ 
+
 ## v1.1.3
 
 ### Added
@@ -26,6 +40,7 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 - Fixed block timestamps
+
 
 
 ## v1.1.2
