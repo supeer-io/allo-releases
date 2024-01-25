@@ -26,9 +26,9 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 - API: fixed `searchAssetMeta` route
-- Number format: remove rounding for most amounts 
-- Fixed styling of values with dividers when they are rendered on multiple lines 
-
+- Number formats: remove rounding for most amounts
+- Defi portfolio: fixed component update when receiving the response from the API.
+- Styling: fixed dividers when they are rendered on multiple lines 
 
 
 ## v1.1.0
