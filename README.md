@@ -1,4 +1,4 @@
-# 🏷️ Allo.info Release Tracker
+# Allo.info Release Tracker
 
 This repo is only used to track the releases of [**Allo.info**](https://allo.info). It does not contain any source code or documentation, only release notes and changelogs.
 
