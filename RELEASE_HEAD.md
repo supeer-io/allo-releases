@@ -1,5 +1,3 @@
-# Allo.info Release Notes
-
 If you have any questions, feature requests, or found a bug on [Allo.info](https://allo.info), feel free to reach out: 
 - [GitHub](https://github.com/supeer-io/allo-releases/issues): Discuss issues publicly
 - [Discord](https://discord.gg/VnxgAGepBm): Open a support ticket 
