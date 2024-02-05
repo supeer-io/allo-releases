@@ -16,7 +16,33 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+- Accounts: fixed the AppId not always being displayed because of async component rendering
+- Txns Filters: Fix txn filters not being applied in /tx/group route
+- Styling: fixed alignment in data tables
+- Formatting: fixed amount formating not using locales in some places 
+
 ### Security
+
+
+## v1.2.2-beta
+
+This is a pre-release. You can test it on the preview environment.
+
+### Added
+
+- Asset Overview: Added a holders distribution card in the token overview
+- Asset Holders: Added a page with the holders distribution bar chart, along with holders list (with filters and sortings)
+
+### Changed
+
+- Grid Layouts: Revamped grid layouts in preparation of customizable layouts
+
+### Fixed
+
+- Accounts: fixed the AppId not always being displayed because of async component rendering
+- Txns Filters: Fix txn filters not being applied in /tx/group route
+- Styling: fixed alignment in data tables
+- Formatting: fixed amount formating not using locales in some places 
 
 
 
