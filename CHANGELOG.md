@@ -16,12 +16,40 @@ All notable changes to this project will be documented in this file.
 
 ### Fixed
 
+### Security
+
+
+
+## v1.2.3-beta
+
+This is a pre-release. You can test it on the preview environment.
+
+### Added
+
+- Homepage: Added a stats section about the current state of Algorand mainnet
+- External Links: Added links to Pera Explorer on transactions, groups, applications and blocks
+- Inner Transactions: Added indentation in transaction tables to help visualize inner transactions depth.
+- Transactions: Added a tab in the transaction view to see all inner transactions for a single outer txn. Same view available for inner transactions too.
+
+### Changed
+
+- Accounts: Switched Algogator to the new Compx API endpoints
+- Profile: Moved profile settings (portfolio providers) from LocalStorage to IndexedDb in preparation of the full profiles 
+
+### Optimized
+
+- Account Rekey Transactions: Switched the query from the standrard indexer to our GraphQL API that has better indexing. (no more timeouts!) 
+
+
+### Fixed
+
 - Accounts: fixed the AppId not always being displayed because of async component rendering
-- Txns Filters: Fix txn filters not being applied in /tx/group route
+- Txns Filters: Fix txn filters not being applied in /tx/group route 
 - Styling: fixed alignment in data tables
 - Formatting: fixed amount formating not using locales in some places 
+- Tooltips: Refactored tooltips to have them all displayed on a completely seperate layer. That fixes all the z-index and context scope issues.
 
-### Security
+
 
 
 ## v1.2.2-beta
