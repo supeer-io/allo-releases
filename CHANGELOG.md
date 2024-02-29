@@ -8,8 +8,6 @@ All notable changes to this project will be documented in this file.
 
 ### Changed
 
-### Optimized
-
 ### Deprecated
 
 ### Removed
@@ -17,6 +15,49 @@ All notable changes to this project will be documented in this file.
 ### Fixed
 
 ### Security
+
+
+
+## v1.3.0
+
+This is a production release.
+Below are all changes between v1.2.0 -> v1.3.0
+
+### Added
+
+- Homepage: Added a stats section about the current state of Algorand mainnet
+- External Links: Added links to Pera Explorer on transactions, groups, applications and blocks
+- Inner Transactions: Added indentation in transaction tables to help visualize inner transactions depth.
+- Transactions: Added a tab in the transaction view to see all inner transactions for a single outer txn. Same view available for inner transactions too.
+- Asset Overview: Added a holders distribution card in the token overview
+- Asset Holders: Added a page with the holders distribution bar chart, along with holders list (with filters and sortings)
+- Txn Notes: Added a toggle to switch the note encoding
+- Txn Logs: Added toggles to switch transaction logs encoding
+- Search: Added search from the labeled assets list
+
+### Changed
+
+- Accounts: Switched Algogator to the new Compx API endpoints
+- Profile: Moved profile settings (portfolio providers) from LocalStorage to IndexedDb in preparation of the full profiles 
+- Grid Layouts: Revamped grid layouts in preparation of customizable layouts
+- Account Rekey Transactions: Switched the query from the standrard indexer to our GraphQL API that has better indexing.
+- Search Scores: More weight for `Trusted` and `Verified` labels 
+- Search Scores: Drop the score for `Suspicious` labels
+
+### Fixed
+
+- Accounts: fixed the AppId not always being displayed because of async component rendering
+- Txns Filters: Fix txn filters not being applied in /tx/group route 
+- Styling: fixed alignment in data tables
+- Formatting: fixed amount formating not using locales in some places 
+- Tooltips: Refactored tooltips to have them all displayed on a completely seperate layer. That fixes all the z-index and context scope issues.
+- Accounts: fixed the AppId not always being displayed because of async component rendering
+- Txns Filters: Fix txn filters not being applied in /tx/group route
+- Styling: fixed alignment in data tables
+- Formatting: fixed amount formating not using locales in some places 
+- Search: Fixed suggestions dropdown not being displayed on autofocus
+- Search: Fixed searching from the Popular Assets list
+- Search: Fixed the search scopes (tokens, nfts) for cached data  
 
 
 
@@ -48,6 +89,7 @@ This is a pre-release. You can test it on the preview environment.
 - Styling: fixed alignment in data tables
 - Formatting: fixed amount formating not using locales in some places 
 - Tooltips: Refactored tooltips to have them all displayed on a completely seperate layer. That fixes all the z-index and context scope issues.
+
 
 
 
