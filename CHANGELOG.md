@@ -17,6 +17,24 @@ All notable changes to this project will be documented in this file.
 ### Security
 
 
+## v1.3.1
+
+### Added
+
+- TXNS | Implemented scam detection API from ChainTrail.io and added warning messages
+- SEARCH | Go directly to a 
+result page if a single result has been found at the moment of hitt
+inh submit
+- CACHE | Added self-pruning on the browser cache. Expired entries are now deleted automatically on page refresh, at an 1h interval.
+
+### Fixed
+
+- SEARCH | Fixed filters and addons params being appended to API query strings
+- ACCOUNTS | Fixed "funded by" value not getting refreshed sometimes when changing accounts
+- ASSETS | Open urls links starting with `ipfs://` on our IPFS gateway.
+- HOMEPAGE | Fixed the sections height on very large and portrait screens
+
+
 
 ## v1.3.0
 
