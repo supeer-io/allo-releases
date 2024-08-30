@@ -16,15 +16,121 @@ All notable changes to this project will be documented in this file.
 
 ### Security
 
+## v1.5.0
+
+### Added
+
+- SEARCH | New search modal
+- TABLES | Controls component for filters
+- CHARTS | Zoom reset button on charts
+- ASSET | NFT descriptions
+
+### Changed
+
+- SEARCH | Updated scoring methods
+- SEARCH | Added Pera projects metadata scores
+- DEPENDENCIES | Updated Svelte & TypeScript packages
+
+### Fixed
+
+- SEARCH | Fixed fetching opengraph project images
+- CHARTS | Fixed scroll trap in mobile charts
+- DATASETS |Fixed Datasets for server-side timestamps loading
+- APPS | Fixed style issues in app programs
+- ASSET | Fixed deleted assets page when asset was created by an app
+- ACCOUNT | Fixed NFD twitter links
+- UI | Fixed style issues with tooltip encoding options
+
+## v1.4.6-alpha.0
+
+### Added
+
+- DATASETS | Added Metadata dataset
+- SEARCH | Added frequent/recent searches
+- SEARCH | Added History module
+- SEARCH | Added clear and search all buttons
+- TXN |Added AssetFreezeTxn component in Tx page
+
+## v1.4.5
+
+### Fixed
+
+- TXN | Transaction 404 quick fix
+
+## v1.4.4
+
+### Fixed
+
+- SERVER | Try/catch in server hooks
+
+## v1.4.3
+
+### Changed
+
+- UI | Fine-tuned popup overlay
+
+### Fixed
+
+- TABLES | Fixed TableRow type
+- NAV | Fixed active state in NavLink
+- BUILD | Fixed circular dependency
+- HELPERS |Fixed search paths helpers
+
+## v1.4.2
+
+### Added
+
+- UI | Popups and tooltips are now using portals
+
+### Changed
+
+- UI | Updated footer version display
+
+### Fixed
+
+- SERVER | Fixed GraphQL server caching
+- SERVER | Fixed feedback API route
+
+## v1.4.1
+
+### Added
+
+- EXTERNAL LINKS | Added Minthol logo (still waiting for their fallback route when no collection for final implementation)
+- PAGES | Added privacy policy and terms of use pages
+
+### Changed
+
+- CACHE | Lowered cache pruning interval
+
+### Fixed
+
+- CACHE | Fixed cache pruning
+- UI | Fixed some text-link styles
+- UI | Fixed external links decoration
+
+## v1.4.0
+
+### Added
+
+- EXTERNAL LINKS | Added Goplausible DID resolver links
+
+### Changed
+
+- UI | Homepage styles
+- UI | Updated FontAwesome
+
+### Fixed
+
+- ASSET | Fixed assets supply tooltip slugs
+- CHARTS | Fixed NumberCounter text wrapping
+- UI | Fixed menu height issues on mobile
 
 ## v1.3.1
 
 ### Added
 
 - TXNS | Implemented scam detection API from ChainTrail.io and added warning messages
-- SEARCH | Go directly to a 
-result page if a single result has been found at the moment of hitt
-inh submit
+- SEARCH | Go directly to a result page if a single result has been found at the moment of hiting submit
 - CACHE | Added self-pruning on the browser cache. Expired entries are now deleted automatically on page refresh, at an 1h interval.
 
 ### Fixed
@@ -33,8 +139,6 @@ inh submit
 - ACCOUNTS | Fixed "funded by" value not getting refreshed sometimes when changing accounts
 - ASSETS | Open urls links starting with `ipfs://` on our IPFS gateway.
 - HOMEPAGE | Fixed the sections height on very large and portrait screens
-
-
 
 ## v1.3.0
 
@@ -56,28 +160,26 @@ Below are all changes between v1.2.0 -> v1.3.0
 ### Changed
 
 - Accounts: Switched Algogator to the new Compx API endpoints
-- Profile: Moved profile settings (portfolio providers) from LocalStorage to IndexedDb in preparation of the full profiles 
+- Profile: Moved profile settings (portfolio providers) from LocalStorage to IndexedDb in preparation of the full profiles
 - Grid Layouts: Revamped grid layouts in preparation of customizable layouts
 - Account Rekey Transactions: Switched the query from the standrard indexer to our GraphQL API that has better indexing.
-- Search Scores: More weight for `Trusted` and `Verified` labels 
+- Search Scores: More weight for `Trusted` and `Verified` labels
 - Search Scores: Drop the score for `Suspicious` labels
 
 ### Fixed
 
 - Accounts: fixed the AppId not always being displayed because of async component rendering
-- Txns Filters: Fix txn filters not being applied in /tx/group route 
+- Txns Filters: Fix txn filters not being applied in /tx/group route
 - Styling: fixed alignment in data tables
-- Formatting: fixed amount formating not using locales in some places 
+- Formatting: fixed amount formating not using locales in some places
 - Tooltips: Refactored tooltips to have them all displayed on a completely seperate layer. That fixes all the z-index and context scope issues.
 - Accounts: fixed the AppId not always being displayed because of async component rendering
 - Txns Filters: Fix txn filters not being applied in /tx/group route
 - Styling: fixed alignment in data tables
-- Formatting: fixed amount formating not using locales in some places 
+- Formatting: fixed amount formating not using locales in some places
 - Search: Fixed suggestions dropdown not being displayed on autofocus
 - Search: Fixed searching from the Popular Assets list
-- Search: Fixed the search scopes (tokens, nfts) for cached data  
-
-
+- Search: Fixed the search scopes (tokens, nfts) for cached data
 
 ## v1.2.3-beta
 
@@ -93,24 +195,19 @@ This is a pre-release. You can test it on the preview environment.
 ### Changed
 
 - Accounts: Switched Algogator to the new Compx API endpoints
-- Profile: Moved profile settings (portfolio providers) from LocalStorage to IndexedDb in preparation of the full profiles 
+- Profile: Moved profile settings (portfolio providers) from LocalStorage to IndexedDb in preparation of the full profiles
 
 ### Optimized
 
-- Account Rekey Transactions: Switched the query from the standrard indexer to our GraphQL API that has better indexing. (no more timeouts!) 
-
+- Account Rekey Transactions: Switched the query from the standrard indexer to our GraphQL API that has better indexing. (no more timeouts!)
 
 ### Fixed
 
 - Accounts: fixed the AppId not always being displayed because of async component rendering
-- Txns Filters: Fix txn filters not being applied in /tx/group route 
+- Txns Filters: Fix txn filters not being applied in /tx/group route
 - Styling: fixed alignment in data tables
-- Formatting: fixed amount formating not using locales in some places 
+- Formatting: fixed amount formating not using locales in some places
 - Tooltips: Refactored tooltips to have them all displayed on a completely seperate layer. That fixes all the z-index and context scope issues.
-
-
-
-
 
 ## v1.2.2-beta
 
@@ -130,9 +227,7 @@ This is a pre-release. You can test it on the preview environment.
 - Accounts: fixed the AppId not always being displayed because of async component rendering
 - Txns Filters: Fix txn filters not being applied in /tx/group route
 - Styling: fixed alignment in data tables
-- Formatting: fixed amount formating not using locales in some places 
-
-
+- Formatting: fixed amount formating not using locales in some places
 
 ## v1.2.1-beta
 
@@ -146,22 +241,18 @@ This is a pre-release. You can test it on the preview environment.
 
 ### Changed
 
-- Search Scores: More weight for `Trusted` and `Verified` labels 
+- Search Scores: More weight for `Trusted` and `Verified` labels
 - Search Scores: Drop the score for `Suspicious` labels
 
 ### Fixed
 
 - Search: Fixed suggestions dropdown not being displayed on autofocus
 - Search: Fixed searching from the Popular Assets list
-- Search: Fixed the search scopes (tokens, nfts) for cached data  
-
-
-
-
+- Search: Fixed the search scopes (tokens, nfts) for cached data
 
 ## v1.2.0
 
-This version implements the new navigation that includes the links to Allo Account and Allo Alerts. 
+This version implements the new navigation that includes the links to Allo Account and Allo Alerts.
 
 ### Added
 
@@ -182,10 +273,6 @@ This version implements the new navigation that includes the links to Allo Accou
 - Theme: Fixed theme colors for asset charts
 - Transaction Groups: Fixed the _per page_ limits for transaction groups (and all other static txn rows)
 
-
-
-
-
 ## v1.1.4
 
 ### Fixes
@@ -199,9 +286,6 @@ This version implements the new navigation that includes the links to Allo Accou
 - URLs: Fixed an issue where removing multiple slashes (`/account//<AccountId>/txns`) was sometimes removing double slashes from protocol.
 - Nav Links: Fixed active state for strict Navlinks with trailing slashes
 
-
-
-
 ## v1.1.3
 
 ### Added
@@ -212,16 +296,12 @@ This version implements the new navigation that includes the links to Allo Accou
 
 - Fixed block timestamps
 
-
-
-
 ## v1.1.2
 
 ### Fixed
 
 - Date formats: better formating for uncommon languages
-- Accounts: fixed re-rendering of the Rekeyed To component after getting the API response 
-
+- Accounts: fixed re-rendering of the Rekeyed To component after getting the API response
 
 ## v1.1.1
 
@@ -234,8 +314,7 @@ This version implements the new navigation that includes the links to Allo Accou
 - API: fixed `searchAssetMeta` route
 - Number formats: remove rounding for most amounts
 - Defi portfolio: fixed component update when receiving the response from the API.
-- Styling: fixed dividers when they are rendered on multiple lines 
-
+- Styling: fixed dividers when they are rendered on multiple lines
 
 ## v1.1.0
 
@@ -245,7 +324,7 @@ This version implements the new navigation that includes the links to Allo Accou
 - New route for transaction groups (`allo.info/txn/group/<Group ID>`)
 - Search for GroupId in the main search bar
 - External links: added _Raw indexer data_ links
-- Dates and Amounts formats using the browser's locale 
+- Dates and Amounts formats using the browser's locale
 
 ### Changed
 
@@ -253,18 +332,15 @@ This version implements the new navigation that includes the links to Allo Accou
 - _Group Summary_ transfers are now collapsible (collapsed by default)
 - Bookmarks sorted in alphabetical order
 
-
 ### Removed
 
 - Removed "Sign Out" button from the profile until profiles implement AlloAccounts
 - Removed transaction type `Unknown` from the filters
 
-
 ### Fixed
 
 - Fixed a typo in `Key Registration` transaction type
 - Trigger NFD search only on alphanumerical strings
-
 
 ## v1.0.0
 
@@ -272,16 +348,16 @@ This is the first public release of [Allo.info](https://allo.info).
 
 ### Key Features
 
-- Search for: 
+- Search for:
   - Assets
   - Accounts
   - Apps
   - Blocks
-  - Txns 
+  - Txns
   - NFDs ([@NFDomains](https://twitter.com/NFDomains))
   - Projects ([@awesome_algo](https://twitter.com/awesome_algo))
   - and our own Articles
-- Accounts: 
+- Accounts:
   - NFD Profile
   - Defi value ([@TeamAlgogator](https://twitter.com/TeamAlgogator))
   - NFTs value ([@asalytic](https://twitter.com/asalytic))
@@ -289,7 +365,7 @@ This is the first public release of [Allo.info](https://allo.info).
   - Pera Verification labels ([@PeraAlgoWallet](https://twitter.com/PeraAlgoWallet))
   - NFT Rarity ([@asalytic](https://twitter.com/asalytic))
   - Token price ([@vestigefi](https://twitter.com/vestigefi))
-- Applications: 
+- Applications:
   - TEAL inspector
 - Transactions:
   - Group summary
@@ -297,6 +373,7 @@ This is the first public release of [Allo.info](https://allo.info).
 - Bookmarks!!!
 
 ### Migration Guidelines
+
 ```diff
 - https://algoexplorer.io/tx/<txId>
 + https://allo.info/tx/<txId>
@@ -312,6 +389,6 @@ This is the first public release of [Allo.info](https://allo.info).
 
 - https://algoexplorer.io/block/<round>
 + https://allo.info/block/<round>
-```   
+```
 
 ##
