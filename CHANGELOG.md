@@ -4,17 +4,46 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## v1.5.2
+
 ### Added
+
+- ACCOUNTS, APPS, ASSETS | Added charts for transaction counts and volume
 
 ### Changed
 
-### Deprecated
-
-### Removed
+- ACCOUNT | Updated top interactions with in/out + progress
+- UI | New layouts for account/token/nft/app pages
+- CACHE | Implemented autoclean cache on the client side on reload
 
 ### Fixed
 
-### Security
+- ACCOUNTS, APPS, ASSETS | Fixed transaction sums calculations
+- UI | Fixed search history overflowing the grid
+
+### Removed
+
+- API | Removed unused analytics route
+- HOMEPAGE | Removed unused stats stores
+
+### Optimized
+
+- ACCOUNTS, APPS, ASSETS | Separated calls for chart and total transactions
+
+## v1.5.1
+
+### Added
+
+- ACCOUNTS, APPS, ASSETS | Added txn counters
+
+### Changed
+
+- ACCOUNT | Switched the top interactions to use the new Analytics API endpoints
+- DEPENDENCIES | Updated ORM version
+
+### Fixed
+
+- UI | Fixed animated counters where small numbers might not reach final value in some cases
 
 ## v1.5.0
 
