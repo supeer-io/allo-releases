@@ -2,6 +2,33 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.6.2
+
+### Added
+
+- Added warnings for accounts
+- Added labels for scams
+- Added marketplace listings
+- Added organizations
+- Added ThisDID links on Transactions
+- Added tracking API endpoint
+
+### Changed
+
+- Changed ThisDID URL scheme
+- Updated LoadMore component
+- Bound fake input trigger to mouseup/touchend events
+- Modified label localization
+
+### Fixed
+
+- Fixed token holders display
+- Updated SupplyDistribution component
+
+### Optimized
+
+- Temporarily disabled scam tracker
+
 ## v1.6.1
 
 ### Added
