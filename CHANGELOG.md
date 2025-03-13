@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.7.1
+
+### Fixed
+
+- Fixed the eligibility card
+- Fixed participation validation issues
+
 ## v1.7.0
 
 ### Added
