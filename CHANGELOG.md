@@ -2,7 +2,51 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## v1.6.0
+
+### Added
+
+- Secondary addresses in the related addresses card
+- Vestige burn vaults support
+- Secondary reserves in the supply distribution chart
+- App <--> account links in the Metadata card
+- Labels strings for various entities
+- Metadata component for all main entities
+- Loading state on the supply chart
+- Vestige labels strings
+
+### Changed
+
+- Migrated from SASS to newer version
+- Switched tags to labels, now fetching metadata from Allo Commons
+- Moved NFD card inside metadata component
+- Moved asset info into the Metadata component
+- Changed DID resolver URLs
+- Synced supply and holders color palettes
+- Improved holders component with legend
+- Enhanced metadata block responsiveness
+- Updated entity handling for improved placeholder selection
+
+### Fixed
+
+- Fixed decimals component
+- Fixed distribution render update
+- Fixed vault labels
+- Fixed metadata component responsiveness
+- Fixed wall shadows
+- Fixed styles for scam check component
+
+### Removed
+
+- Removed deepStore
+- Removed unused holder labels conditions
+- Removed redundant Profile.svelte component
+
+### Optimized
+
+- Restructured token-related components
+- Improved organization of entity classes with init method standardization
+- Refined GraphQL queries for asset data
 
 ## v1.5.2
 
