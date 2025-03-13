@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.6.3
+
+### Added
+
+- Added scamWarning functionality back
+
+### Changed
+
+- Updated layout configuration for account pages
+
 ## v1.6.2
 
 ### Added
