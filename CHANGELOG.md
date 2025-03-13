@@ -2,6 +2,36 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.7.0
+
+### Added
+
+- Asset holders page with balance share and incremental position information
+- Block navigation with previous/next functionality
+- KeyReg transaction type information display
+- Program approval hash and deployments on application page
+- Pera project information integration for assets
+- Total fees information on block pages
+- Tooltips for validator status
+- Custom icons for incentive status
+
+### Changed
+
+- Updated validator status display and terminology for Consensus V4
+- Improved validator card styling and auto-update for pending status counter
+- Enhanced ValidatorStatus storage in Account entities
+- Updated external links component
+
+### Fixed
+
+- Properly display fees value when no fees are present
+- Reset settings stores if defaults are different types, have different keys, or different length
+- Wait for metadata dataset before adding asset Pera metadata
+
+### Optimized
+
+- Optimized Pera data store
+
 ## v1.6.5
 
 ### Changed
