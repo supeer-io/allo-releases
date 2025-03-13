@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.6.4
+
+### Changed
+
+- Modified OverviewLayout.svelte
+- Updated history-related files
+- Refactored Filterable.ts
+- Updated BaseEntity.ts with minor adjustments
+
 ## v1.6.3
 
 ### Added
