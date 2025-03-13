@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.7.2
+
+### Fixed
+
+- Fixed theme loading and app name constant
+- Fixed eligibility rewards showing as eligible even when offline or fees not paid
+- Fixed suspended validator state not being properly detected
+- Fixed tables settings signature comparison to reset settings when a new structure is detected
+- Fixed query filters for handling multiple compare keys under same parameter key in transaction filtering
+
+### Changed
+
+- Improved transaction filtering functionality
+- Removed date column from BlockTxns, added intra round (offset) and fixed sorting by offset
+
 ## v1.7.1
 
 ### Fixed
