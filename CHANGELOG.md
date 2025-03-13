@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.6.1
+
+### Added
+
+- Added XComp vaults support
+
+### Changed
+
+- Improved asset address display
+- Enhanced token holders distribution visualizations
+- Modified token holders overview component
+
 ## v1.6.0
 
 ### Added
@@ -47,6 +59,14 @@ All notable changes to this project will be documented in this file.
 - Restructured token-related components
 - Improved organization of entity classes with init method standardization
 - Refined GraphQL queries for asset data
+
+### Dependencies
+
+- Updated @supeer/orm from ^0.3.4 to ^0.4.0
+- Updated @supeer/ui from ^1.6.12 to ^1.7.1
+- Updated @sveltejs/kit from ^2.5.18 to ^2.7.3
+- Updated svelte-preprocess from ^5.1.0 to ^6.0.3
+- Added @sveltejs/vite-plugin-svelte at ^3.1.2
 
 ## v1.5.2
 
