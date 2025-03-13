@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.7.3
+
+### Added
+
+- Added heartbeat transaction filter for better monitoring
+- Added heartbeat transaction labels and descriptions
+
+### Fixed
+
+- Fixed eligibility validation in account validators
+- Fixed fees paid flag in account management
+- Removed redundant feesPaid switch on suspension (should already be false)
+
 ## v1.7.2
 
 ### Fixed
