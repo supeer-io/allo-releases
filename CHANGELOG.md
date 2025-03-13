@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.6.5
+
+### Changed
+
+- Updated old algonode.cloud URLs in Partners module
+
 ## v1.6.4
 
 ### Changed
